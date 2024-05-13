@@ -377,7 +377,7 @@ p {
 	width: 90%;
 }
 #contact .contact-items {
-	/* max-width: 400px; */
+	max-width: 400px;
 	width: 100%;
 	cursor: pointer;
 	;
@@ -577,7 +577,7 @@ p {
 	}
 	#contact .contact-item .contact-info {
 		width: 100%;
-		text-align: left;
+/* 		text-align: left; */
 		padding-left: 20px;
 	}
 	/* End contact  */
