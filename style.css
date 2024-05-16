@@ -51,7 +51,7 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 	animation-name: section-title;
-	animation-duration: 10s;
+	animation-duration: 4s;
 }
 
 .section-title span {
@@ -581,6 +581,11 @@ p {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 100px) and (max-width:767px) {
+	*{
+		overflow: hidden;
+	}
+	
+		
 	#hero h1 {
 		font-size: 4rem;
 	}
