@@ -58,7 +58,7 @@ p {
 	animation-duration: 3s;
 }
 .menu{
-	animation-name: brand;
+	animation-name: brands;
 	animation-duration: 3s;
 }
 
@@ -555,6 +555,16 @@ p {
 
 	0% {
 		transform: translateX(-100px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+}
+@keyframes brands {
+
+	0% {
+		transform: translateX(100px);
 	}
 
 	100% {
