@@ -42,6 +42,10 @@ p {
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 }
+.fav{
+	width: 16px;
+	height: 16px;
+}
 
 .section-title {
 	font-size: 7em;
@@ -51,8 +55,14 @@ p {
 	letter-spacing: 0.2rem;
 	text-align: center;
 	animation-name: section-title;
-	animation-duration: 4s;
+	animation-duration: 3s;
 }
+.menu{
+	animation-name: brand;
+	animation-duration: 3s;
+}
+
+
 
 .section-title span {
 	color: rgb(103, 222, 222);
@@ -533,7 +543,7 @@ p {
 @keyframes section-title {
 
 	0% {
-		transform: translateY(-150px);
+		transform: translateY(-100px);
 	}
 
 	100% {
@@ -581,11 +591,6 @@ p {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 100px) and (max-width:767px) {
-	*{
-		overflow: hidden;
-	}
-	
-		
 	#hero h1 {
 		font-size: 4rem;
 	}
